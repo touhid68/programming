@@ -122,7 +122,7 @@ int main()
     deletion(a,n);
     search(a,n);
     ///before binary searching,array must be sorted with ascending order.
-    sort(a,a+n+1);
+    sort(a+0,a+n+1); ///sort from (a+0)=0 index to (a+n+1)=(a+11)=10 index.
     binary_search(a,n);
     return 0;
 
