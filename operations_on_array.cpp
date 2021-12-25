@@ -121,6 +121,8 @@ int main()
     insertion(a,n);
     deletion(a,n);
     search(a,n);
+    ///before binary searching,array must be sorted with ascending order.
+    sort(a,a+n+1);
     binary_search(a,n);
     return 0;
 
