@@ -16,11 +16,11 @@ void binary_search(int a[],int n)
         {
             break;
         }
-        if(item<a[mid_index])
+        else if(item<a[mid_index])
         {
             high_index=mid_index-1;
         }
-        else
+        else if(item>a[mid_index])
         {
             low_index=mid_index+1;
         }
