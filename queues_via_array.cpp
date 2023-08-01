@@ -12,8 +12,8 @@ class queues
 {
 private:
     int queue[MAXQ];
-    int front=0;
-    int rear=0;
+    int front=0; // front=-1 then after insertion front=0
+    int rear=0; // rear=-1  after insertion it will increses.
 public:
     void insert()
     {
