@@ -104,7 +104,7 @@ int main()
             Q.getSize();
             break;
         case 5:
-            Q.pip();
+            Q.pip(); //display
             break;
         case 6:
             exit(1);
